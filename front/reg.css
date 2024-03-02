@@ -1,0 +1,29 @@
+#reg{
+    margin:10px;
+}
+#form1,#form2{
+    margin:10px;
+    display: grid;
+    grid-template-columns:minmax(300px,400px);
+    gap:5px;
+}
+input{
+/* height:30px;fo */
+font-size: 18px;
+border:none;
+padding:5px;
+}
+input[type="radio"]{
+height:45px;
+width: 45px;
+}
+#x ,#gender{
+    height:18px;
+    margin:10px;
+}
+form p{
+    color:chartreuse;
+}
+#login{
+    margin-top:30px;
+}

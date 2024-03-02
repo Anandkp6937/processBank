@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --background-color-primary:#114232;
+    --color-primary:#FCDC2A;
+    --logo-font:"Playfair Display", serif;
+    --font:"Roboto", sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:var(--background-color-primary);
+    color:#fff;
+    font-family:var(--font);
+}
+.primary{
+    background-color:var(--color-primary);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:50px;
+    margin:10px;
+}
+.primary p{
+    font-size:25px;
+    padding-left:10px;
+    margin:20px;
+    color:var(--background-color-primary);
+    font-family: var(--logo-font);
+    font-weight: bold;
+}
+.secondary{
+    margin-top:30px;
+    text-align: center;
+
+}
+#des{
+    margin-top:10px;
+    padding:0px 50px;
+    text-align: left;
+    font-size:20px;
+    color:var(--color-primary);
+}
+.third{
+    margin-top:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    padding:10px 20px;
+    margin:20px;
+    transition:0.5s;
+}
+.btn:hover{
+    opacity:0.7;
+    background-color:var(--background-color-primary);
+    color:#fff;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
